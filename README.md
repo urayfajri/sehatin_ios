@@ -14,18 +14,16 @@
 ### cocoa pods conflict intergration
 
 Option 1:
+- pod deintegrate
+- pod install
 
--pod deintegrate
--pod install
-
--OR
+OR
 
 Option 2:
+- pod deintegrate
+- arch -x86_64 pod install
 
--pod deintegrate
--arch -x86_64 pod install
-
--Open the xcode .xcworkspace project
+Open the xcode .xcworkspace project
 
 ### Libraries
 
