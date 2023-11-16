@@ -13,6 +13,7 @@
 		29F50EE8864E0ADEA826554A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD7F652E12D29BAC671FD8 /* HomeView.swift */; };
 		5888111EEA525039FAE2CC1C /* StringScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A358041669D73234DF0D0 /* StringScheme.swift */; };
 		60B2208FA53034AC2A3D0713 /* FSPageControlSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06AEA9452C11C94CECDA13 /* FSPageControlSUI.swift */; };
+		64F05D955E5BBF19313CCBB2 /* Pods_Sehatiniosapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1972DA2C04D111EB95C52F /* Pods_Sehatiniosapp.framework */; };
 		78F65682796811C64634FCAD /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9382DC8C606DB76F3ED97F /* DrawerView.swift */; };
 		7F44DBA127422A5D00171570 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44DBA027422A5D00171570 /* ActivityLoader.swift */; };
 		817120631529AF50028078F5 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007800A486B873DF91CD4DC /* ProfileViewModel.swift */; };
@@ -51,6 +52,7 @@
 		05320EC74410E50F4FD4A633 /* HomeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		058DCD3E772289689064CD40 /* FSPagerViewSUIOrigin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSPagerViewSUIOrigin.swift; sourceTree = "<group>"; };
 		067088D260486BEA3D97CCFD /* FSPagerViewSUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSPagerViewSUI.swift; sourceTree = "<group>"; };
+		0B1972DA2C04D111EB95C52F /* Pods_Sehatiniosapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sehatiniosapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FEF127811A7286FED41072 /* ProfileView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3BF4887993EEBE9BFFA6A6FB /* RegisterViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		41177CE8F3A404647EDD259A /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		6E95CCB8F5783179AAD3AAB8 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6FFDC57B596F6B31FF56E848 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		72167DF7647B889F81A2ACAA /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		7629D3D20F18539ED6403604 /* Pods-Sehatiniosapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sehatiniosapp.release.xcconfig"; path = "Target Support Files/Pods-Sehatiniosapp/Pods-Sehatiniosapp.release.xcconfig"; sourceTree = "<group>"; };
 		7B542FA3B6B7632E4174884A /* ColumnvectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColumnvectorCell.swift; sourceTree = "<group>"; };
 		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
 		8606CCD3F499E57290788952 /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		CC9382DC8C606DB76F3ED97F /* DrawerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
 		D3BD7F652E12D29BAC671FD8 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E03B30F020828532582D4E0F /* APIServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		E0A7F1047D55356A9B1AFB33 /* Pods-Sehatiniosapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sehatiniosapp.debug.xcconfig"; path = "Target Support Files/Pods-Sehatiniosapp/Pods-Sehatiniosapp.debug.xcconfig"; sourceTree = "<group>"; };
 		E4110F0148AF1A51FC176211 /* CreateLoginRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateLoginRequest.swift; sourceTree = "<group>"; };
 		F4C3C59876BC91AD9745952F /* MenuViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		F9EA9428BF635AA61DAF3CB7 /* RowpcrswabtestCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RowpcrswabtestCell.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F05D955E5BBF19313CCBB2 /* Pods_Sehatiniosapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +156,14 @@
 			);
 			name = CustomViews;
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		4817A3ADC01FEC9090E6359D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1972DA2C04D111EB95C52F /* Pods_Sehatiniosapp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4CAD3D30EDB550B797A27826 /* HomeView */ = {
@@ -226,6 +239,8 @@
 			children = (
 				88ED74E6272FFE6E0088E3EF /* Sehatiniosapp */,
 				88ED74E5272FFE6E0088E3EF /* Products */,
+				D2AC82D71C9BD8E6491343F8 /* Pods */,
+				4817A3ADC01FEC9090E6359D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +358,16 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		D2AC82D71C9BD8E6491343F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7F1047D55356A9B1AFB33 /* Pods-Sehatiniosapp.debug.xcconfig */,
+				7629D3D20F18539ED6403604 /* Pods-Sehatiniosapp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "Sehatiniosapp" */;
 			buildPhases = (
+				728AC0827440DFCADA8A0104 /* [CP] Check Pods Manifest.lock */,
 				88ED74E0272FFE6E0088E3EF /* Sources */,
 				88ED74E1272FFE6E0088E3EF /* Frameworks */,
 				88ED74E2272FFE6E0088E3EF /* Resources */,
+				7030987B718F6DAF57F670A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -406,6 +433,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7030987B718F6DAF57F670A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sehatiniosapp/Pods-Sehatiniosapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sehatiniosapp/Pods-Sehatiniosapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sehatiniosapp/Pods-Sehatiniosapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728AC0827440DFCADA8A0104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sehatiniosapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88ED74E0272FFE6E0088E3EF /* Sources */ = {
@@ -572,6 +641,7 @@
 		};
 		88ED74F4272FFE6F0088E3EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A7F1047D55356A9B1AFB33 /* Pods-Sehatiniosapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -594,6 +664,7 @@
 		};
 		88ED74F5272FFE6F0088E3EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7629D3D20F18539ED6403604 /* Pods-Sehatiniosapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -8,20 +8,16 @@ struct LoginView: View {
             ZStack {
                 VStack {
                     VStack(alignment: .leading, spacing: 0) {
-                        VStack(alignment: .leading, spacing: 0) {
-                            Text(StringConstants.kMsgHaiSelamatDa)
-                                .font(FontScheme.kGilroyExtrabold(size: getRelativeHeight(28.0)))
-                                .fontWeight(.heavy)
-                                .foregroundColor(ColorConstants.Bluegray900)
-                                .minimumScaleFactor(0.5)
-                                .multilineTextAlignment(.leading)
-                                .frame(width: getRelativeWidth(258.0),
-                                       height: getRelativeHeight(35.0), alignment: .topLeading)
-                                .padding(.trailing)
-                        }
-                        .frame(width: getRelativeWidth(355.0), height: getRelativeHeight(35.0),
-                               alignment: .trailing)
-                        .padding(.leading, getRelativeWidth(10.0))
+                        Text(StringConstants.kMsgHaiSelamatDa)
+                            .font(FontScheme
+                                .kGilroyExtrabold(size: getRelativeHeight(28.0)))
+                            .fontWeight(.heavy)
+                            .foregroundColor(ColorConstants.Bluegray900)
+                            .minimumScaleFactor(0.5)
+                            .multilineTextAlignment(.leading)
+                            .frame(width: getRelativeWidth(258.0),
+                                   height: getRelativeHeight(35.0), alignment: .topLeading)
+                            .padding(.leading, getRelativeWidth(10.0))
                         VStack(alignment: .trailing, spacing: 0) {
                             ZStack(alignment: .topLeading) {
                                 ZStack {}
@@ -250,22 +246,16 @@ struct LoginView: View {
                                alignment: .trailing)
                         .padding(.top, getRelativeHeight(4.0))
                         .padding(.leading, getRelativeWidth(10.0))
-                        VStack(alignment: .leading, spacing: 0) {
+                        VStack {
                             Text(StringConstants.kLblEmail)
                                 .font(FontScheme.kGilroySemibold(size: getRelativeHeight(16.0)))
                                 .fontWeight(.semibold)
                                 .foregroundColor(ColorConstants.Indigo900)
                                 .minimumScaleFactor(0.5)
                                 .multilineTextAlignment(.leading)
-                                .frame(width: getRelativeWidth(40.0),
+                                .frame(width: getRelativeWidth(350.0),
                                        height: getRelativeHeight(20.0), alignment: .topLeading)
-                                .padding(.trailing)
-                        }
-                        .frame(width: getRelativeWidth(355.0), height: getRelativeHeight(20.0),
-                               alignment: .trailing)
-                        .padding(.top, getRelativeHeight(10.0))
-                        .padding(.leading, getRelativeWidth(10.0))
-                        VStack {
+                                .padding(.top, getRelativeHeight(90.0))
                             Group {
                                 HStack {
                                     TextField(StringConstants.kMsgMasukkanEmail,
@@ -282,19 +272,22 @@ struct LoginView: View {
                                         .isValidEmail(isMandatory: true)
                                 }
                                 .frame(width: getRelativeWidth(335.0),
-                                       height: getRelativeHeight(40.0), alignment: .center)
+                                       height: getRelativeHeight(40.0), alignment: .leading)
                                 .background(RoundedCorners(topLeft: 8.0, topRight: 8.0,
                                                            bottomLeft: 8.0, bottomRight: 8.0)
                                         .fill(ColorConstants.WhiteA700))
-                                .shadow(color: ColorConstants.Gray40028, radius: 24, x: 0, y: 16)
-                                .padding(.trailing, getRelativeWidth(20.0))
+                                .shadow(color: ColorConstants.Gray40028, radius: 24, x: 0,
+                                        y: 16)
+                                .padding(.top, getRelativeHeight(16.0))
+                                .padding(.trailing, getRelativeWidth(10.0))
                                 if !loginViewModel.isValidGroupthreeText {
                                     Text("Please enter valid email.")
                                         .foregroundColor(Color.red)
                                         .font(FontScheme
                                             .kProximaNovaRegular(size: getRelativeHeight(12.0)))
                                         .frame(width: getRelativeWidth(335.0),
-                                               height: getRelativeHeight(40.0), alignment: .center)
+                                               height: getRelativeHeight(40.0),
+                                               alignment: .leading)
                                 }
                             }
                             HStack {
@@ -355,26 +348,21 @@ struct LoginView: View {
                                 .shadow(color: ColorConstants.Gray40028, radius: 24, x: 0, y: 16)
                                 .padding(.top, getRelativeHeight(16.0))
                                 .padding(.trailing, getRelativeWidth(20.0))
-                                if !loginViewModel.isValidGrouptwoText {
-                                    Text("Please enter valid password.")
-                                        .foregroundColor(Color.red)
-                                        .font(FontScheme
-                                            .kProximaNovaRegular(size: getRelativeHeight(12.0)))
-                                        .frame(width: getRelativeWidth(335.0),
-                                               height: getRelativeHeight(40.0), alignment: .center)
-                                }
+                                
                             }
                             HStack {
                                 Text(StringConstants.kLblLogin)
-                                    .font(FontScheme.kGilroySemibold(size: getRelativeHeight(16.0)))
+                                    .font(FontScheme
+                                        .kGilroySemibold(size: getRelativeHeight(18.0)))
                                     .fontWeight(.semibold)
                                     .foregroundColor(ColorConstants.WhiteA700)
                                     .minimumScaleFactor(0.5)
                                     .multilineTextAlignment(.leading)
-                                    .frame(width: getRelativeWidth(41.0),
-                                           height: getRelativeHeight(20.0), alignment: .topLeading)
-                                    .padding(.top, getRelativeHeight(13.0))
-                                    .padding(.bottom, getRelativeHeight(14.0))
+                                    .frame(width: getRelativeWidth(68.0),
+                                           height: getRelativeHeight(23.0),
+                                           alignment: .topLeading)
+                                    .padding(.vertical, getRelativeHeight(12.0))
+                                    .padding(.leading, getRelativeWidth(133.0))
                                 Image("img_arrowright")
                                     .resizable()
                                     .frame(width: getRelativeWidth(14.0),
@@ -382,8 +370,7 @@ struct LoginView: View {
                                     .scaledToFit()
                                     .clipped()
                                     .padding(.vertical, getRelativeHeight(17.0))
-                                    .padding(.leading, getRelativeWidth(108.0))
-                                    .padding(.trailing, getRelativeWidth(25.0))
+                                    .padding(.leading, getRelativeWidth(95.0))
                             }
                             .onTapGesture {
                                 loginViewModel.createLogin()

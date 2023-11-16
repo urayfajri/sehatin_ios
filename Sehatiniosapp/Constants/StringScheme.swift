@@ -37,6 +37,7 @@ struct StringConstants {
     static let kLblNoTelpon2: String = "No Telpon"
     static let kLblAngga: String = "Angga "
     static let kMsgMasukkanNoKt: String = "Masukkan No. KTP anda"
+    static let kMsgMasukkanNoTelepon: String = "Masukkan No. Telepon"
     static let kMsgPastikanProfil: String =
         "Pastikan profile anda terisi dengan benar, data pribadi anda terjamin keamanannya"
     static let kLblRegister: String = "Register"
@@ -76,7 +77,7 @@ struct StringConstants {
     static let kLblAnggaPraja: String = "Angga Praja"
     static let kLblPengaturan: String = "Pengaturan"
     static let kInvalidUrl: String = "Invalid URL"
-    static let kLblNoTelpon: String = "No. Telpon"
+    static let kLblNoTelpon: String = "No. Telepon"
     static let kLblDataDiri: String = "Data Diri"
     static let kLblHai: String = "Hai, "
     static let kLblDaftarSekarang: String = "Daftar sekarang"

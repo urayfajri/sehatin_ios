@@ -398,23 +398,14 @@ struct RegisterView: View {
                                            height: getRelativeHeight(20.0), alignment: .topLeading)
                                     .padding(.top, getRelativeHeight(39.0))
                                     .padding(.trailing, getRelativeWidth(10.0))
-                                Text(StringConstants.kMsgMasukkanNoTel)
-                                    .font(FontScheme
-                                        .kProximaNovaRegular(size: getRelativeHeight(12.0)))
-                                    .fontWeight(.regular)
-                                    .padding(.trailing, getRelativeWidth(30.0))
-                                    .padding(.leading, getRelativeWidth(24.0))
-                                    .padding(.vertical, getRelativeHeight(17.0))
-                                    .foregroundColor(ColorConstants.Gray700)
-                                    .minimumScaleFactor(0.5)
-                                    .multilineTextAlignment(.leading)
-                                    .frame(width: getRelativeWidth(335.0),
-                                           height: getRelativeHeight(40.0), alignment: .topLeading)
-                                    .background(ColorConstants.WhiteA700)
-                                    .shadow(color: ColorConstants.Gray40028, radius: 24, x: 0,
-                                            y: 16)
-                                    .padding(.top, getRelativeHeight(15.0))
-                                    .padding(.trailing, getRelativeWidth(10.0))
+                                HStack {
+                                    TextField(StringConstants.kMsgMasukkanNoTelepon,
+                                              text: $registerViewModel.groupsixtyText)
+                                        .font(FontScheme
+                                            .kProximaNovaRegular(size: getRelativeHeight(12.0)))
+                                        .foregroundColor(ColorConstants.Gray700)
+                                        .padding()
+                                }
                                 Text(StringConstants.kLblPassword)
                                     .font(FontScheme.kGilroySemibold(size: getRelativeHeight(16.0)))
                                     .fontWeight(.semibold)
@@ -640,6 +631,7 @@ struct RegisterView: View {
             }
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             .background(ColorConstants.WhiteA700)
+            .padding(.top, 50)
             .ignoresSafeArea()
             .hideNavigationBar()
         }

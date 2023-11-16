@@ -578,17 +578,7 @@ struct HomeView: View {
                                                    alignment: .center)
                                             .scaledToFit()
                                             .clipped()
-                                        Text(StringConstants.kMsgTampilkanLebih)
-                                            .font(FontScheme
-                                                .kProximaNovaSemibold(size: getRelativeHeight(14.0)))
-                                            .fontWeight(.semibold)
-                                            .foregroundColor(ColorConstants.Gray400)
-                                            .minimumScaleFactor(0.5)
-                                            .multilineTextAlignment(.leading)
-                                            .frame(width: getRelativeWidth(146.0),
-                                                   height: getRelativeHeight(14.0),
-                                                   alignment: .topLeading)
-                                            .padding(.leading, getRelativeWidth(12.0))
+                                       
                                     }
                                     .frame(width: getRelativeWidth(174.0),
                                            height: getRelativeHeight(16.0), alignment: .center)
@@ -683,6 +673,7 @@ struct HomeView: View {
             }
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             .background(ColorConstants.WhiteA700)
+            .padding(.top, 50)
             .ignoresSafeArea()
             if homeViewModel.isMenuViewShow {
                 DrawerView(isShowing: $homeViewModel.isMenuViewShow,
