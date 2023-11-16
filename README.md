@@ -33,7 +33,7 @@ https://github.com/Alamofire/Alamofire
 
 ### Project Structure
 ```
-├── Sehatiniosapp.xcodeproj  - it lets you create and modify Xcode projects from Ruby.      
+├── Sehatiniosapp.xcodeproj      
 │ 
 ├── Sehatiniosapp            - Application components folder
 │ ├── Application       - Application configuration files
