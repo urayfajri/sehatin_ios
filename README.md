@@ -15,15 +15,17 @@
 
 Option 1:
 
-pod deintegrate
-pod install
-OR
+-pod deintegrate
+-pod install
+
+-OR
 
 Option 2:
 
-pod deintegrate
-arch -x86_64 pod install
-Open the xcode .xcworkspace project
+-pod deintegrate
+-arch -x86_64 pod install
+
+-Open the xcode .xcworkspace project
 
 ### Libraries
 
