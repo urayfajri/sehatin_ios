@@ -6,9 +6,24 @@
 - Cocoapods-1.10.1
 - macOS Catalina Version 10.15.4 or later
 
-### After Download
-- Install Cocoapods `pod install`
-- Open `ProjectName.xcworkspace`
+
+### Install pod depedency
+
+-pod install
+
+### cocoa pods conflict intergration
+
+Option 1:
+- pod deintegrate
+- pod install
+
+OR
+
+Option 2:
+- pod deintegrate
+- arch -x86_64 pod install
+
+Open the xcode .xcworkspace project
 
 ### Libraries
 
